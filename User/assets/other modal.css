@@ -1,0 +1,168 @@
+.invest-modal{
+
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: rgba(20, 20, 20, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  
+  }
+
+  .invest-modal-close-btn{
+
+
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+
+  }
+
+.invest-modal-content{
+
+width: 30%;
+margin: 15% auto;
+padding: 20px;
+background-color: lightgrey;
+border-radius: 10px;
+position: relative;
+height: 35%;
+
+}
+
+#invest-form label{
+
+  font-size: 17px;
+  font-family: 'Chilanka', cursive;
+
+}
+
+#invest-form{ 
+
+    width: 300px;
+    height: 40px;
+    margin: 5% 13.5%;
+    position: absolute;
+    bottom: 150px;
+    
+}
+
+.invest-moadl-number{
+
+width: 300px;
+height: 40px;
+border-radius: 10px;
+border: unset;
+padding-left: 10px;
+
+}
+
+.invest-smodal-btn{
+
+width: 150px;
+background-color: blue;
+color: cornsilk;
+font-size: 16px;
+font-family: 'Chilanka', cursive;
+height: 40px;
+border-radius: 10px;
+border: unset;
+
+}
+
+@media screen and (max-width: 990px){
+
+.invest-modal-content{
+
+    width: 50%;
+    height: 65%;
+
+}
+
+}
+
+@media screen and (max-width: 790px){
+
+    .invest-modal-content{
+
+        width: 70%;
+        
+        }
+        
+        .invest-moadl-number{
+        
+        width: 398px;
+        
+        }
+        
+        #invest-form {
+        
+        margin: 5% 4.5%;
+        
+        }
+
+        .invest-modal-content{
+
+        height: 55%;
+
+        }
+
+}
+
+@media screen and (max-width: 670px){
+
+    .invest-moadl-number {
+
+         width: 230px;
+
+    }
+
+    #invest-form {
+
+        bottom: 110px;
+    }
+
+    .invest-moadl-number {
+
+        width: 430px;
+        
+    }
+
+}
+
+@media screen and (max-width: 470px){
+
+    .invest-modal-content{
+    
+    width: 70%;
+    height: 30%;
+    
+    }
+    
+    .invest-moadl-number{
+    
+    width: 270px;
+    
+    }
+    
+    #invest-form {
+    
+    margin: 5% 1.5%;
+    left: 20px;
+
+    }
+
+    }
+
+    @media screen and (max-width: 350px){
+
+    .invest-moadl-number {
+
+         width: 230px;
+
+    }
+}
+

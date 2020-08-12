@@ -1,0 +1,187 @@
+@media screen and (min-width: 950px){
+
+.div-cont-11-wealth{
+
+padding: 20px;
+    display: flex;
+    justify-content: left;
+    height: 30px;
+}
+
+.div-cont-11-wealth h3 {
+
+font-family: 'Lemonada', cursive;
+font-size: 22px;
+margin-left: 20px;
+
+}
+
+#content-withdrawl-num{
+
+width: 50vw;
+height: 7vh;
+padding-left: 20px;
+border-radius: 5px;
+
+}
+
+#content-withdrawl-txt{
+
+width: 50vw;
+height: 7vh;
+padding-left: 20px;
+border-radius: 5px;
+
+}
+
+.withdrawal-form label{
+
+  font-family:'Chilanka', cursive;
+  font-size: 17px;
+    
+}
+
+.div-cont-11-withdrawals{
+
+padding: 20px;
+display: flex;
+justify-content: left;
+height: 130px;
+position: relative;
+
+}
+
+.withdrawal-form{
+
+margin-left: 40px; 
+    
+}
+
+.withdrawal-button{
+
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: unset;
+  margin-left: 550px;
+  margin-top: 25px;
+  background-color: blue;
+
+}
+
+}
+
+
+@media screen and (max-width: 940px){
+
+    .div-cont-11-wealth{
+
+        padding: 20px;
+            display: flex;
+            justify-content: left;
+            height: 30px;
+        }
+        
+        .div-cont-11-wealth h3 {
+        
+        font-family: 'Lemonada', cursive;
+        font-size: 22px;
+        margin-left: 20px;
+        
+        }
+        
+        #content-withdrawl-num{
+        
+        width: 50vw;
+        height: 7vh;
+        padding-left: 20px;
+        border-radius: 5px;
+        
+        }
+        
+        #content-withdrawl-txt{
+        
+        width: 50vw;
+        height: 7vh;
+        padding-left: 20px;
+        border-radius: 5px;
+        
+        }
+        
+        .withdrawal-form label{
+        
+          font-family:'Chilanka', cursive;
+          font-size: 17px;
+            
+        }
+        
+        .div-cont-11-withdrawals{
+        
+        padding: 20px;
+        display: flex;
+        justify-content: left;
+        height: 280px;
+        position: relative;
+        
+        }
+        
+        .withdrawal-form{
+        
+        margin-left: 40px; 
+            
+        }
+        
+    .withdrawal-button{
+        
+    width: 150px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: unset;
+    margin-left: 190px;
+    margin-top: 25px;
+    background-color: blue;
+        
+    }
+
+}
+
+@media screen and (max-width: 470px){
+
+    #content-withdrawl-num{
+
+    width: 80vw;
+    height: 10vh;
+
+    }
+
+    #content-withdrawl-txt{
+
+    width: 80vw;
+    height: 10vh;
+
+    }
+
+    .withdrawal-button{
+
+    margin-left: 180px;
+    margin-top: 5px;
+
+    }
+
+    .withdrawal-form {
+
+    margin-left: 10px;
+
+    }
+
+    .div-cont-11-withdrawals {
+
+        height: 360px;
+
+    }
+
+}

@@ -1,0 +1,135 @@
+.div-cont-investment{
+
+padding: 20px;
+display: flex;
+justify-content: space-evenly;
+height: 460px;
+position: relative;
+flex-wrap: wrap;
+
+}
+
+.div-cont-investment-01-content{
+
+  margin-top: 40px;
+  margin-left: 70px;
+
+}
+
+.div-cont-investment-01-content a{
+
+ color: thistle;
+ font-size: 15px;
+ font-family: 'Sora', sans-serif;;
+
+}
+
+.div-cont-investment-01{
+
+  background-color: rgb(36, 35, 35);
+  border-radius: 10px;
+  margin-top: 36px;
+  width: 500px;
+
+}
+
+.div-cont-investment-01-header{
+
+   display: flex;
+   margin: 25px 0 0 0;
+
+}
+
+.div-cont-investment-01-header h3{
+
+  flex: auto;
+  padding-left: 25px;
+  margin-top: 15px;
+  color: bisque;
+  font-family:  'Chilanka', cursive;
+  font-size: 16px;
+
+}
+
+.div-cont-investment-01 h2{
+
+    font-size: 40px;
+    margin-top: 36px;
+    text-align: center;
+    font-family:  'Chilanka', cursive;
+    color: yellow;
+
+}
+
+.div-cont-investment-01 h4{
+
+    font-size: 17px;
+    margin-top: 12px;
+    text-align: center;
+    font-family:  'Chilanka', cursive;
+    color: rgb(177, 177, 174);
+
+}
+
+.div-cont-investment-01-header-btn{
+
+    margin-right: 25px;
+    background-color: blue;
+    border-radius: 10px;
+    border: unset;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+
+}
+
+.div-cont-investment-other-number{
+
+display: flex;
+padding: 40px;
+
+}
+
+.div-cont-investment-other-number-text{
+
+flex: 5;
+font-family: 'Sora', sans-serif;
+
+}
+
+.div-cont-investment-other-number-selector{
+
+  flex: 1;
+  display: inline-flex
+
+}
+
+.div-cont-invest-numbe-span-1{
+
+  width:0;
+
+}
+
+.div-cont-invest-numb-tab-1{
+
+  margin-left: 35px;
+
+}
+
+.div-cont-invest-numbe-span-2 {
+
+  margin-left: 27px;
+  font-size: 78px;
+
+}
+@media screen and (max-width: 970px){
+
+  .div-cont-investment{
+
+    height: 470px;
+
+  }
+
+}
+

@@ -1,0 +1,404 @@
+
+
+@media screen and (max-width: 790px){
+
+.icones {
+
+right: 170px;
+top: 224px;
+
+}
+
+.iconses {
+
+left: 430px;
+top: 54px;
+    
+}
+
+}
+
+@media screen and (max-width: 450px){
+
+.iconses {
+        
+left: 220px;
+top: 54px;
+    
+}
+    
+.icones {
+    
+right: 40px;
+top: 224px;
+    
+}
+    
+}
+
+
+@media screen and (max-width: 948px){
+
+  .side-nav.close{
+
+    display: none !important;
+      
+  }
+
+  .div-cont-deposit-fund{
+
+    background-color: white;
+    width: 410px;
+    height: 210px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black ;
+    box-shadow: 2px 2px 2px 0 black;
+    position: relative;
+        
+    }
+    
+    .div-cont-deposit-fund h4{
+    
+      font-weight: 200;
+      font-family: 'Sora', sans-serif;
+    
+    }
+    
+    .div-cont-deposit-fund p{
+    
+      font-family: 'Sora', sans-serif;
+      font-size: 15px;
+    
+    }
+    
+    .fund-img{
+    
+      width: 80px;
+      margin-left: 30px;
+      margin-top: 55px;
+    
+    }
+    
+    .div-cont-fund-text{
+    
+        position: absolute;
+        right: 120px;
+        top:65px;
+    
+    }
+    
+    .div-cont-button{
+    
+      background-color: blue;
+      width: 130px;
+      height: 40px;
+      /* border: unset; */
+      box-shadow: 2px 2px 0 2px black;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 17px;
+      right: 25px;
+      color: white;
+    }
+
+    .div-cont-deposit-log-table{
+
+      padding: 20px;
+      margin-top: 50px;
+      position: relative;
+      top: 95px;
+      overflow-y: scroll;
+      
+      }
+      
+      .div-cont-deposit-log-table th{
+      
+        padding: 20px;
+        width: 10%;
+        background-color: lightgrey;
+      
+      }
+
+      .div-cont-deposit-log-table td {
+
+        padding: 20px;
+        width: 10%;
+        border-bottom: 0.5px solid black;
+
+      }
+
+}
+
+@media screen and (min-width: 950px){
+
+.div-cont-deposit-fund{
+
+background-color: white;
+width: 410px;
+height: 210px;
+margin-top: 10px;
+border-radius: 10px;
+border: 1px solid black ;
+box-shadow: 2px 2px 2px 0 black;
+position: relative;
+    
+}
+
+.div-cont-deposit-fund h4{
+
+  font-weight: 200;
+  font-family: 'Sora', sans-serif;
+
+}
+
+.div-cont-deposit-fund p{
+
+  font-family: 'Sora', sans-serif;
+  font-size: 15px;
+
+}
+
+.fund-img{
+
+  width: 80px;
+  margin-left: 30px;
+  margin-top: 55px;
+
+}
+
+.div-cont-fund-text{
+
+    position: absolute;
+    right: 120px;
+    top:65px;
+
+}
+
+.div-cont-button{
+
+  background-color: blue;
+  width: 130px;
+  height: 40px;
+  /* border: unset; */
+  box-shadow: 2px 2px 0 2px black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 17px;
+  right: 25px;
+  color: white;
+}
+
+.div-cont-deposit-log{
+
+padding: 20px;
+margin-top: 50px;
+position: relative;
+top: 80px;
+margin-left: 40px;
+border-bottom: 1px dashed black;
+height: 50px;
+
+
+}
+
+.div-cont-deposit-log p{
+
+font-family: 'Lemonada', cursive;
+font-weight: 200;
+
+}
+
+.div-cont-deposit-log-table{
+
+padding: 20px;
+margin-top: 50px;
+position: relative;
+top: 95px;
+
+}
+
+/* .div-cont-deposit-log-table th{
+
+  padding: 20px;
+  width: 10%;
+  background-color: lightgrey;
+
+} */
+
+.div-cont-deposit-log-table th{
+      
+  padding: 15px;
+  width: 10%;
+  background-color: lightgrey;
+  font-size: 14px;
+  font-family: 'Lemonada', cursive;
+
+}
+
+.div-cont-deposit-log-table span{
+
+  background-color: green;
+  opacity: 0.5;
+  width: 120px;
+  display: inline-block;
+  height: 35px;
+  vertical-align: middle;
+  opacity: 0.3;
+  border-radius: 10px;
+
+}
+
+/* .div-cont-deposit-log,table table#t01 tr, td:nth-child(4) {
+
+  background-color: green;
+  opacity: 0.5;
+  width: 120px;
+  display: inline-block;
+  height: 35px;
+  vertical-align: middle;
+  opacity: 0.3;
+  border-radius: 10px;
+
+} */
+
+.div-cont-deposit-log-table span p{
+
+margin-top: 7px;
+color: white;
+
+}
+
+.div-cont-deposit-log-table td {
+
+  padding: 20px;
+  width: 10%;
+  border-bottom: 0.5px solid black;
+  text-align: center;
+  font-family: 'Sora', sans-serif;
+
+}
+
+}
+
+@media screen and (max-width: 790px){
+
+  .div-cont-fund-text{
+
+    right: 135px;
+
+}
+
+.div-cont-deposit-log{
+
+  padding: 20px;
+  margin-top: 50px;
+  position: relative;
+  top: 80px;
+  margin-left: 40px;
+  border-bottom: 1px dashed black;
+  height: 50px;
+  
+  
+  }
+  
+  .div-cont-deposit-log p{
+  
+  font-family: 'Lemonada', cursive;
+  font-weight: 200;
+  
+  }
+  
+  .div-cont-deposit-log-table{
+  
+  padding: 20px;
+  margin-top: 50px;
+  position: relative;
+  top: 95px;
+  
+  }
+  
+  /* .div-cont-deposit-log-table th{
+  
+    padding: 20px;
+    width: 10%;
+    background-color: lightgrey;
+  
+  } */
+  
+  .div-cont-deposit-log-table th{
+        
+    padding: 15px;
+    width: 10%;
+    background-color: lightgrey;
+    font-size: 14px;
+    font-family: 'Lemonada', cursive;
+  
+  }
+  
+  .div-cont-deposit-log-table span{
+  
+    background-color: green;
+    opacity: 0.5;
+    width: 120px;
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    opacity: 0.3;
+    border-radius: 10px;
+  
+  }
+  
+  /* .div-cont-deposit-log,table table#t01 tr, td:nth-child(4) {
+  
+    background-color: green;
+    opacity: 0.5;
+    width: 120px;
+    display: inline-block;
+    height: 35px;
+    vertical-align: middle;
+    opacity: 0.3;
+    border-radius: 10px;
+  
+  } */
+  
+  .div-cont-deposit-log-table span p{
+  
+  margin-top: 7px;
+  color: white;
+  
+  }
+  
+  .div-cont-deposit-log-table td {
+  
+    padding: 20px;
+    width: 10%;
+    border-bottom: 0.5px solid black;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+  
+  }
+  
+
+}
+
+@media screen and (max-width: 470px){
+
+  .div-cont-fund-text{
+
+    right: 100px;
+
+}
+
+
+}
+
+@media screen and (max-width: 370px){
+
+  .div-cont-fund-text{
+
+    right: 45px;
+
+}
+
+}
